@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.6.9"
+# command to install dependencies
+install:
+  - pip install flask
+
+script:
+  - cd 1st Website/App_main
+  - python Website.py
